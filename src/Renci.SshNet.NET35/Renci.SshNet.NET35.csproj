@@ -113,6 +113,9 @@
     <Compile Include="..\Renci.SshNet\Channels\ServerChannel.cs">
       <Link>Channels\ServerChannel.cs</Link>
     </Compile>
+    <Compile Include="..\Renci.SshNet\Channels\ChannelWriteStream.cs">
+      <Link>Channels\ChannelWriteStream.cs</Link>
+    </Compile>
     <Compile Include="..\Renci.SshNet\CipherInfo.cs">
       <Link>CipherInfo.cs</Link>
     </Compile>
@@ -182,6 +185,9 @@
     <Compile Include="..\Renci.SshNet\Common\HostKeyEventArgs.cs">
       <Link>Common\HostKeyEventArgs.cs</Link>
     </Compile>
+    <Compile Include="..\Renci.SshNet\Common\LinkedListQueue.cs">
+      <Link>Common\LinkedListQueue.cs</Link>
+    </Compile>
     <Compile Include="..\Renci.SshNet\Common\NetConfServerException.cs">
       <Link>Common\NetConfServerException.cs</Link>
     </Compile>
@@ -190,6 +196,15 @@
     </Compile>
     <Compile Include="..\Renci.SshNet\Common\Pack.cs">
       <Link>Common\Pack.cs</Link>
+    </Compile>
+    <Compile Include="..\Renci.SshNet\Common\Pipe.cs">
+      <Link>Common\Pipe.cs</Link>
+    </Compile>
+    <Compile Include="..\Renci.SshNet\Common\PipeInputStream.cs">
+      <Link>Common\PipeInputStream.cs</Link>
+    </Compile>
+    <Compile Include="..\Renci.SshNet\Common\PipeOutputStream.cs">
+      <Link>Common\PipeOutputStream.cs</Link>
     </Compile>
     <Compile Include="..\Renci.SshNet\Common\PipeStream.cs">
       <Link>Common\PipeStream.cs</Link>
